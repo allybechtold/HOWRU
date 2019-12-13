@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'euclid_flexbold';
+    src: url('fonts/euclidflex-bold-webfont.woff2') format('woff2'),
+         url('fonts/euclidflex-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: 'euclid_flexbold';
+	margin: 0;
+  background-color: #ffffff;
+}
+.container {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 90%;
+	margin: 10vh;
+  height: 80vh
+}
+.container>a{
+	display:flex;
+	justify-content: center;
+  align-items: center;
+}
+.container>a img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.container>div {
+  display:flex;
+	justify-content: center;
+  align-items: center;
+  background-image: url("images/smiley3.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+/* homepage Squares */
+.smiley {
+	background-color: #FFFFFF;
+}
+.Y {
+  background-color: #FFD1FD;
+}
+.smiley2 {
+ background-color: #FFFFFF;
+}
+.H {
+  background-color: #CE9FFF;
+}
+.O {
+  background-color: #B0CBFF;
+}
+.W {
+  background-color: #C5FFC2;
+}
+.R {
+  background-color: #FFC9CA;
+}
+.U {
+  background-color: #FFE5A6;
+}
+.question {
+  background-color: #FFF8CD;
+}
